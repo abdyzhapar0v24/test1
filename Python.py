@@ -39,14 +39,17 @@ while True:
         summa = num1 + num2
         print("Сумма ", summa)
         time.sleep(0.5)
+        
     elif choice == "2":
         defference = num1 - num2
         print("Разность ", defference)
         time.sleep(0.5)
+
     elif choice == "3":
         product = num1 * num2
         print("Произведение ", product)
         time.sleep(0.5)
+        
     elif choice == "4":
         quetient = num1 / num2
         print("Частное ", quetient)
